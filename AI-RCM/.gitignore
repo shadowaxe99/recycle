@@ -1,0 +1,73 @@
+# .gitignore file
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore all log files
+*.log
+
+# Ignore data files
+*.csv
+*.xlsx
+
+# Ignore model files
+*.h5
+
+# Ignore virtual environment
+venv/
+
+# Ignore Jupyter Notebook files
+*.ipynb
+
+# Ignore PyCharm project settings
+.idea/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore all pycache
+**/__pycache__/
+
+# Ignore all .pyc, .pyo, .pyd
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore all .so and .o
+*.so
+*.o
+
+# Ignore database files
+*.db
+
+# Ignore config files
+config.py
+
+# Ignore secret files
+*.pem
+*.key
+*.cert
+
+# Ignore all .DS_Store
+.DS_Store
